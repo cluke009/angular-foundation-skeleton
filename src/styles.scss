@@ -1,6 +1,6 @@
 @charset 'utf-8';
 
-@import 'settings';
+@import 'assets/scss/settings';
 @import 'node_modules/foundation-sites/scss/foundation';
 @import 'node_modules/motion-ui/src/motion-ui';
 
@@ -10,8 +10,8 @@
 @include foundation-typography;
 
 // Grids (choose one)
-@include foundation-xy-grid-classes;
-// @include foundation-grid;
+// @include foundation-xy-grid-classes;
+@include foundation-grid;
 // @include foundation-flex-grid;
 
 // Generic components
